@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "BBBB AAAA",
+    "img": "./assets/img/bild01.jpg",
+    "time": "23:04:1981",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+
+  {
+    "id": 1,
+    "name": "Susi Klatt",
+    "img": "./assets/img/bild01.jpg",
+    "time": "23:04:1981",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 1,
+    "name": "Susi Klatt",
+    "img": "./assets/img/bild01.jpg",
+    "time": "23:04:1981",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 1,
+    "name": "Susi Klatt",
+    "img": "./assets/img/bild01.jpg",
+    "time": "23:04:1981",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 2,
+    "name": "Klaus Klatt",
+    "img": "./assets/img/bild02.jpg",
+    "time": "23:04:1981",
+    "text": "Lorem ipsum dolor sit amet."
+  }
+]

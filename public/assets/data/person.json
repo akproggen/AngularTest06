@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Max Mustermann",
+    "mail": "max.mustermann@example.com",
+    "pwd": "password123",
+    "info": "Beispielperson 1"
+  },
+  {
+    "id": 2,
+    "name": "Erika Musterfrau",
+    "mail": "erika.musterfrau@example.com",
+    "pwd": "password456",
+    "info": "Beispielperson 2"
+  },
+  {
+    "id": 3,
+    "name": "Hans Müller",
+    "mail": "hans.mueller@example.com",
+    "pwd": "password789",
+    "info": "Beispielperson 3"
+  },
+  {
+    "id": 4,
+    "name": "Petra Schmidt",
+    "mail": "petra.schmidt@example.com",
+    "pwd": "password101",
+    "info": "Beispielperson 4"
+  },
+  {
+    "id": 5,
+    "name": "Klaus Meier",
+    "mail": "klaus.meier@example.com",
+    "pwd": "password202",
+    "info": "Beispielperson 5"
+  }
+]

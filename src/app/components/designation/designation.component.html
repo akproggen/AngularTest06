@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-4">
+        <h1>Designations</h1>
+        <p>Roles are used to manage user permissions and access levels within the application.</p>
+        <p>Each role can have different permissions assigned to it, allowing for fine-grained control over what users can do.</p> 
+        </div>     
+  <div class="col-8">
+    @for (item of designationList; track $index) {
+        <div class="card">
+            <div class="card-body">
+            <h4 class="card-title">{{item.designation}}</h4>
+            <p class="card-text">item.designation</p>
+            <a href="#" class="card-link">{{item.designationId}}</a>
+            <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>    
+    }
+    </div>
+</div>
+
+  

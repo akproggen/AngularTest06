@@ -1,0 +1,3 @@
+@for(post of dataPosts; track post.name){
+    <app-post [name]="post.name" [img]="post.img" [time]="post.time" [text]="post.text" ></app-post>
+  }

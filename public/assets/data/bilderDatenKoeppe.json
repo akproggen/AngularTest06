@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1bildAK",
+        "creater": "K\u00f6ppe",
+        "titel": "Garden Odrade",
+        "beschreibung": "Das aber nett\r\n",
+        "jahr": 2022,
+        "groesseX": 111,
+        "groesseY": 1,
+        "material": "Acryl auf Leinwand",
+        "startgebot": 4.4400000000000004,
+        "bildUrl": "koeppe\/001 2022 Garden Acryl Canvas 50 60.jpg",
+        "listeAllerGebote": [
+            {
+                "date": "27.11.2024 07:48:59",
+                "gebot": "8",
+                "kontaktinfo": "zzzz"
+            },
+            {
+                "date": "27.11.2024 07:48:52",
+                "gebot": "7",
+                "kontaktinfo": "dd"
+            },
+            {
+                "date": "27.11.2024 07:48:34",
+                "gebot": "6",
+                "kontaktinfo": "dd"
+            }
+        ]
+    },
+    {
+        "id": "2bildAK",
+        "creater": "K\u00f6ppe",
+        "titel": "DEEP",
+        "beschreibung": "werwer",
+        "jahr": 1889,
+        "groesseX": 72,
+        "groesseY": 92,
+        "material": "Balpoint Pen ",
+        "startgebot": 6.6699999999999999,
+        "bildUrl": "koeppe\/2009_ballpen_sketch_01.jpg"
+    },
+    {
+        "id": "3bildAK",
+        "creater": "K\u00f6ppe",
+        "titel": "Gymnastik",
+        "beschreibung": "",
+        "jahr": 2222,
+        "groesseX": 72,
+        "groesseY": 33,
+        "material": "Ballpoint pen",
+        "startgebot": 3.3300000000000001,
+        "bildUrl": "koeppe\/2009_ballpen_sketch_02.jpg",
+        "listeAllerGebote": [
+            {
+                "date": "27.11.2024 07:49:33",
+                "gebot": "5",
+                "kontaktinfo": "fff"
+            }
+        ]
+    },
+    {
+        "id": "4bildAK",
+        "creater": "A. K\u00f6ppe",
+        "titel": "Isac Asimov",
+        "beschreibung": "",
+        "jahr": 1889,
+        "groesseX": 72,
+        "groesseY": 70,
+        "material": "\u00d6l auf Leinwand",
+        "startgebot": 233,
+        "bildUrl": "koeppe\/2019_Assimov.jpg"
+    },
+    {
+        "id": "5bildAK",
+        "creater": "K\u00f6ppe",
+        "titel": "Dr. Prof.",
+        "beschreibung": "Hey Muralis,\r\n\r\nImagine launching a product and selling out in 48 hours\u2014without spending a fortune on ads. Sounds like a dream, right?\r\n\r\nThat\u2019s exactly what happened to EcoStride, a sustainable sneaker brand. Instead of relying only on ads, they used a press release to get featured on Yahoo Finance, Google News, and 150+ media sites.\r\n\r\n\u2705 11,400+ visitors in 5 days\r\n\u2705 300+ sales before ads even started\r\n\u2705 100% free organic traffic from media coverage\r\n\r\nAnd the best part? Writing a press release used to be time-consuming and difficult, but now EIN Presswire\u2019s AI Press Release Generator makes it fast and effortless.\r\n\r\nJust enter your details, let AI craft a professional press release, and distribute it to top-tier media instantly.\r\n\r\nLaunch your next product the smart way.\r\n\r\nTry It Today: https:\/\/marketersmentor.com\/sold-out-product-launch.php?refer=muralis.de&real=yes\r\n\r\nTo your success,\r\nDena\r\n\r\n\r\nUnsubscribe: \r\nhttps:\/\/marketersmentor.com\/unsubscribe.php?d=muralis.de&real=yes",
+        "jahr": 1889,
+        "groesseX": 72,
+        "groesseY": 92,
+        "material": "Bundstifte",
+        "startgebot": 1,
+        "bildUrl": "koeppe\/2019_bb_a4_sketch_02.jpg"
+    }
+]

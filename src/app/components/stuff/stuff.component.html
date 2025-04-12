@@ -1,0 +1,51 @@
+<div class="row mt-3 pt-3">
+
+  @if(isLoaded){
+      <div class="col-12 text-center">
+    <div class="spinner-border text-muted"></div>
+    <div class="spinner-border text-primary"></div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-border text-info"></div>
+    <div class="spinner-border text-warning"></div>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-border text-secondary"></div>
+    <div class="spinner-border text-dark"></div>
+    <div class="spinner-border text-light"></div>
+  </div>
+  } @else {
+
+    <div class="col-4">
+
+      <div class="btn-group">
+        <button type="button" (click)="setView('post')" class="btn"
+          [ngClass]="currrentComponent == 'post' ? 'btn-default': 'btn-primary'"> Posts List</button>
+  
+        <button type="button" (click)="setView('person')" class="btn"
+          [ngClass]="currrentComponent == 'person' ? 'btn-default': 'btn-primary'">Person List</button>
+        <button type="button" (click)="setView('none')" class="btn"
+          [ngClass]="currrentComponent == 'person' ? 'btn-default': 'btn-primary'">HMM</button>
+      </div>
+  
+    </div>
+    <div class="col-8">
+  
+      <div class="panel panel-default" *ngIf="currrentComponent == 'person'">
+  
+        <app-person-list></app-person-list>
+  
+      </div>
+      <div class="panel panel-default" *ngIf="currrentComponent == 'post'">
+  
+        <app-post-list></app-post-list>
+  
+      </div>
+  
+    </div>
+
+
+
+  }
+
+
+
+</div>

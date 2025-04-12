@@ -1,0 +1,35 @@
+<div class="container my-4" *ngIf="bilderDaten[0]">
+    <div class="card" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img [src]="bilderDaten[0].bildUrl" class="img-fluid rounded-start" [alt]="bilderDaten[0].titel">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{bilderDaten[0].titel}}</h5>
+                    <p class="card-text text-muted">by {{bilderDaten[0].creater}}</p>
+                    <p class="card-text">{{bilderDaten[0].beschreibung}}</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Year: {{bilderDaten[0].jahr}}</li>
+                        <li class="list-group-item">Size: {{bilderDaten[0].groesseX}} x {{bilderDaten[0].groesseY}}</li>
+                        <li class="list-group-item">Material: {{bilderDaten[0].material}}</li>
+                        <li class="list-group-item">Starting Bid: ${{bilderDaten[0].startgebot}}</li>
+                    </ul>
+                    <div class="mt-3" *ngIf="bilderDaten[0].listeAllerGebote && bilderDaten[0].listeAllerGebote.length > 0">
+                        <h6>Current Bids:</h6>
+                        <div class="list-group">
+                            <div class="list-group-item list-group-item-action" 
+                                 *ngFor="let bid of bilderDaten[0].listeAllerGebote">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <small>Date: {{bid.date}}</small>
+                                    <span>${{bid.gebot}}</span>
+                                </div>
+                                <small>Contact: {{bid.kontaktinfo}}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
